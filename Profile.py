@@ -34,6 +34,10 @@ fail=0
 sum=0
 ctr=1
 
+# from ezy
+for x in xrange(a+1):
+	print "*" * x
+
 input=int(raw_input("How many grades will you input: "))
 
 while ctr<=input:
